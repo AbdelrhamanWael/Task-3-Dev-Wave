@@ -59,13 +59,6 @@ Multiple Google Fonts are included:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍�� Author
-
-**Dev Wave** - [Your GitHub Profile]
 
 ## �� Acknowledgments
 
@@ -76,8 +69,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## �� Contact
 
-- Project Link: [https://github.com/yourusername/movie_APP](https://github.com/yourusername/movie_APP)
-- Email: [your-email@example.com]
+- Project Link: https://github.com/AbdelrhamanWael/Task-3-Dev-Wave.git
+- Email: abdelrhamanwael8@gmail.con
 
 ---
 
