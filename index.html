@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies App</title>
+    <!-- icons -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@300;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,500;1,700&family=Tajawal:wght@200;300;400;500;800;900&family=Varela+Round&display=swap"
+        rel="stylesheet" />
+
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- nav bar  -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <div class="container-fluid">
+                <a href="#home" class="navbar-brand logo d-flex align-items-center fw-bold "> <i
+                        class="fa-solid fa-film"></i> Movies </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav navbar d-flex column-gap-5  ms-auto mb-2 mb-lg-0  me-auto ">
+                        <li class="nav-item ">
+                            <a class="nav-link active  " aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="#movies">Movies</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="#coming-soon">Coming soon</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="#newsletter">New letter</a>
+                        </li>
+
+
+                    </ul>
+                    
+                    <button type="button" class="btn btn-danger ms-lg-4 mt-3 mt-lg-0  ">Sign Up</button>
+
+
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- End of nav bar -->
+    <!-- Home -->
+    <section id="home" class="home d-flex align-items-center position-relative min-vh-100">
+        <div class="home-text ">
+            <span>Marvel Universe</span>
+            <h2 class="fw-bolder mb-3 text-capitalize">
+                Spider-Man<br />
+                Far From Home
+            </h2>
+            <button type="button" class="btn btn-danger  mt-3 mt-lg-0">Book Now</button>
+        </div>
+    </section>
+    <!-- Home -->
+
+    <!-- Movies  -->
+    <section id="movies" class="movies">
+        <h2 class="heading">Opening this Week</h2>
+        <div class="container-1000 mt-4">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3">
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/m1.jpg" alt="Venom" /></div>
+                        <h3>Venom</h3>
+                        <span>120min | Action</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/m2.jpg" alt="Dunkerk" /></div>
+                        <h3>Dunkerk</h3>
+                        <span>105min | Adventure</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/m3.jpg" alt="Batman & Superman" /></div>
+                        <h3>Batman & Superman</h3>
+                        <span>100min | Thriller</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/m4.jpg" alt="John Wick" /></div>
+                        <h3>John Wick</h3>
+                        <span>120min | Adventure</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/m5.jpg" alt="Aquaman" /></div>
+                        <h3>Aquaman</h3>
+                        <span>130min | Action</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/m6.jpg" alt="Black Panther" /></div>
+                        <h3>Black Panther</h3>
+                        <span>90min | Thriller</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/m7.jpg" alt="Thor" /></div>
+                        <h3>Thor</h3>
+                        <span>130min | Action</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/m8.png" alt="Bumblebee" /></div>
+                        <h3>Bumblebee</h3>
+                        <span>100min | Thriller</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/m9.jpg" alt="Mortal Engines" /></div>
+                        <h3>Mortal Engines</h3>
+                        <span>100min | Action</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/m10.jpg" alt="UnderWorld Blood Wars" /></div>
+                        <h3>UnderWorld Blood Wars</h3>
+                        <span>100min | Action</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="coming-soon" class="coming">
+        <h2 class="heading">Coming Soon</h2>
+        <div class="container-1000 mt-4">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3">
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/coming1.jpg" alt="Joney English" /></div>
+                        <h3>Joney English</h3>
+                        <span>80min | Comedy</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/coming2.jpg" alt="WarCrafet" /></div>
+                        <h3>WarCrafet</h3>
+                        <span>120min | Action</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/coming3.jpg" alt="Rampage" /></div>
+                        <h3>Rampage</h3>
+                        <span>108min | Adventure</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/coming4.jpg" alt="Airon Lady" /></div>
+                        <h3>Airon Lady</h3>
+                        <span>120min | Comedy</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/coming5.jpg" alt="Justice League" /></div>
+                        <h3>Justice League</h3>
+                        <span>120min | Adventure</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/coming6.jpeg" alt="Doctor Strange" /></div>
+                        <h3>Doctor Strange</h3>
+                        <span>120min | Adventure</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/coming7.jpg" alt="Captain Marvel" /></div>
+                        <h3>Captain Marvel</h3>
+                        <span>120min | Adventure</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/coming8.jpg" alt="Black Widow" /></div>
+                        <h3>Black Widow</h3>
+                        <span>90min | Action</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/coming9.jpg" alt="Ant Man" /></div>
+                        <h3>Ant Man</h3>
+                        <span>110min | Adventure</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <div class="box-img"><img src="img/coming10.jpg" alt="Guardiance Of The Galaxy" /></div>
+                        <h3>Guardiance Of The Galaxy</h3>
+                        <span>120min | Adventure</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Coming Soon -->
+    <!-- Newsletter -->
+    <section id="newsletter" class="news py-5">
+        <div class="container-1000 d-flex flex-column align-items-center justify-content-center gap-4">
+            <h2 class="text-center">
+                Subscribe To Get <br />
+                Newsletter
+            </h2>
+            <form class="d-flex align-items-center bg-white rounded-2 p-2">
+                <input class="email border-0 outline-0" type="email" placeholder="Enter Email..." />
+                <button class="btn btn-danger rounded-2 px-4 py-2">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    <!-- Newsletter -->
+    <!-- footer -->
+    <section class="footer py-4">
+        <div class="container-1000 d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <i class="fa-solid fa-film me-2"></i> Movies
+            </a>
+            <div class="social-icons d-flex align-items-center gap-2">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <!-- copyrights -->
+    <div class="copy text-center py-2">
+        <p>&#169; <span>Dev Wave</span> All Right Reserved.</p>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+   
+</body>
+
+</html>
